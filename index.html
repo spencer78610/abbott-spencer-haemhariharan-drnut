@@ -2,38 +2,43 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>DR.NUT</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
 </head>
 <body>
-    <section class="header">
-        
-        <nav>
-            <a href="index.html" style="grid-column: 2/3;"><img src="images/logo.png"></a>
-            <div class="nav-links" id="navLinks">  
-                <i class="fa fa-close" onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">COURSE</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                </ul>
+    <h1 class="hidden">Dr Nut</h1>
+    <div class="container">
+        <header id="main-header" class="grid">
+            <a id="logo" href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links"> 
+                
+                    <i class="fa fa-close" onclick="hideMenu()"></i>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">COURSE</a></li>
+                            <li><a href="#">BLOG</a></li>
+                            <li><a href="contact.html">CONTACT</a></li>
+                        </ul>
+                     </nav>
+                     <i class="fa fa-bars" onclick="showMenu()"></i>
             </div>
-            <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        
-        <div class="text-box">
-            <h1>LOVE FOR THE BEERS</h1>
-            <p>experience the taste of the fruit</p>
-            <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
-        </div>
-    </section>
+                
+           
+            
+            <div class="text-box">
+                <h1>LOVE FOR THE BEERS</h1>
+                <p>experience the taste of the fruit</p>
+                <a href="contact.html" class="hero-btn">Visit Us to Know More</a>
+            </div>
+        </header>
     
 <!---------- course ----------->
     
-    <section class="beer">
+    <!-- <section class="beer">
         <h1>DISCOVER SUPER BEERS</h1>
         <p>experience the luxury taste</p>
         <div class="grid">
@@ -54,7 +59,7 @@
     
 <!---------- campus ---------->
     
-    <section class="arrivals">
+    <!-- <section class="arrivals">
         <h1>NEW ARRIVALS</h1>
         <p>Doing Dry January? We got you covered!<br>With more than 500 Beer and Spirits, we are proud to be the Largest Alcohol-Free Store in Canada.</p>
             <div class="grid">
@@ -78,11 +83,11 @@
                 </div>
                 
             </div>
-    </section>
+    </section> -->
     
 <!---------- selling ---------->
     
-    <section class="selling">
+    <!-- <section class="selling">
         <h1>Our BEERS</h1>
         <p> Beer and Spirits, we are proud to be the Largest Alcohol-Free Store in Canada.</p>
             <div class="grid">
@@ -107,7 +112,7 @@
     
 <!---------- testimonials ---------->
     
-    <section class="testimonials">
+    <!-- <section class="testimonials">
         <h1>From our customers</h1>
         <p>Cheers guys!</p>
             <div class="grid">
@@ -136,36 +141,36 @@
                     </div>
                 </div>
                 
-            </div>
-    </section>
-    
+            </div> -->
+    </section> -->
+     -->
 <!------ Call To Action ------>
 
-<section class="cta">
-    
-       <h1>Become an DR.NUT<br>Join the DR.NUT Family and receive exclusive offers, new product alerts, recipes and more.</h1>
-        <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="hero-btn">CONTACT US</a>
-    
-</section>    
- 
+    <!-- <section class="cta">
+        
+        <h1>Become an DR.NUT<br>Join the DR.NUT Family and receive exclusive offers, new product alerts, recipes and more.</h1>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="hero-btn">CONTACT US</a>
+        
+    </section>    
+  -->
 <!-------- footer ---------->
 
-<section class="footer">
-        <h4>About Us</h4>
-        <p>Dr.NUT was founded in 2022 by a team of four young entrepreneurs who aim to make non-alcoholic beverages accessible across the globe.</p>
-        <div class="icons">
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
-            
-        </div>
-        <a href="contact.html" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p></a>
-</section>    
+    <!-- <section class="footer">
+            <h4>About Us</h4>
+            <p>Dr.NUT was founded in 2022 by a team of four young entrepreneurs who aim to make non-alcoholic beverages accessible across the globe.</p>
+            <div class="icons">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-linkedin"></i></a>
+                
+            </div>
+            <a href="contact.html" class="footer-link"><p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p></a>
+        </section>     
+    </div>  
   
-  
-<!----JavaScript for toggle menu---->
-<script>
+--JavaScript for toggle menu-- -->
+<!-- <script>
     var navLinks = document.getElementById("navLinks");
 
     function showMenu() {
@@ -179,10 +184,3 @@
     
 </body>
 </html>
-
-
-
-
-
-
-
