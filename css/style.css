@@ -21,6 +21,16 @@ body {
     margin: 0 auto;
 }
 
+h2 {
+    font-size: 64px;
+    color: #2a2a2a;
+}
+
+p {
+    font-size: 26px;
+    color: #868686;
+}
+
 .grid {
     display: grid;
     padding-left: 132px;
@@ -248,6 +258,78 @@ nav .fa{
         flex-direction: column;
     }
 } 
+
+/* 5.Arrivals */
+
+#arrivals{
+    display: grid;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.arrivals
+
+#arrivals-col1{
+    /* flex-basis: 32%; */
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    grid-column: 2/5;
+    height: 358px;
+}
+
+#arrivals-col2{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 358px;
+    grid-column: 5/8;
+}
+
+#arrivals-col3{
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 358px;
+    grid-column: 8/11;
+}
+
+#arrivals-col img{
+    width: 100%;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: .5s;
+}
+.layer:hover{
+    background: rgba(226, 0, 0, 0.7);
+}
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: .5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
 
 /*------- Contact Us Page ------------*/
 
