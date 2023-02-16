@@ -243,8 +243,8 @@ nav .fa{
     font-size: 31px;
 }
 
-.beer-col1:hover{
-    box-shadow: 0 0 200px 0px rgba(0, 0, 0, 0.2);
+#beer-col1:hover{
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
 #beer-col2:hover{
@@ -352,27 +352,34 @@ nav .fa{
     margin: 0 auto;
     text-align: center;
     padding-top: 100px;
-    margin-bottom: 200px;
+    margin-bottom: 400px;
 }
 
 #selling h2{
     grid-column: 5/9;
     margin-top: 37px;
+    font-size: 36px;
+    font-weight: 600;
 }
 
 #selling p {
-    grid-row: 2/3;
     grid-column: 3/11;
+    grid-row: 2/3;
     padding-bottom: 88px;
     padding-top: 11px;
 }
 
+#selling h3 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+
 #selling-col1{
-    grid-column: 1/4;
+    grid-column: 1/5;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    grid-column: 2/5;
     height: 350px;
 }
 
@@ -381,7 +388,6 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    grid-column: 5/8;
     height: 350px;
 }
 
@@ -390,7 +396,6 @@ nav .fa{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    grid-column: 8/11;
     height: 350px;
 }
 
@@ -450,11 +455,13 @@ nav .fa{
 
 #testimonials h2 {
     grid-column: 4/10;
+    padding-bottom: 18px;
 }
 
 #testimonials p {
     grid-row: 2/3;
     grid-column: 6/8;
+    padding-bottom: 102px;
 }
 
 .testimonial-col1{
@@ -491,6 +498,7 @@ nav .fa{
 }
 
 .testimonial-col-p{
+    display: flex;
     grid-column: 2/7;
     padding: 0;
 }
@@ -529,6 +537,7 @@ nav .fa{
     color: #fff;
     margin-bottom: 40px; 
     padding: 0; 
+    font-size: 59px;
 }
 
 @media(max-width:700px){
