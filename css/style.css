@@ -66,6 +66,7 @@ nav{
 .nav-links{
     grid-column: 7/-1;
     text-align: right;
+    margin-top: 40px;
 }
 /* 
 .nav-links ul{
@@ -99,6 +100,10 @@ nav .fa{
     display: none;
 }
 
+.fa-close {
+    display: none;
+}
+
 .text-box{
     width: 90%;
     color: #fff;
@@ -119,11 +124,10 @@ nav .fa{
 }
 
 .hero-btn {
-    display: inline-block;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 12px 34px;
+    padding: 12px 80px;
     font-size: 13px;
     background: transparent;
     position: relative;
@@ -553,7 +557,6 @@ nav .fa{
 #sub-header {
     height: 476px;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../images/background.jpg);
-    
 }
 
 .location{
@@ -574,7 +577,6 @@ nav .fa{
 
 #contact-us{
     display: grid;
-    width: 80%;
     margin: auto;
 }
 .contact-col{
@@ -609,7 +611,7 @@ nav .fa{
 }
 
 .row {
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 
 .row2 {
@@ -617,7 +619,7 @@ nav .fa{
 }
 
 textarea {
-    width: 100%;
+    width: 91.5%;
     padding: 15px;
     margin-bottom: 17px;
     outline: none;
@@ -675,6 +677,7 @@ button {
     cursor: pointer;
     padding: 18px 0;
 }
+
 .fa-heart-o{
     color: #f44336;
 }
@@ -818,10 +821,20 @@ grid-column: 1/4;
 }
 
 #m-row {
-
+    grid-column: 1/5;
 }
 
+/* #m-textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+} */
 
+input {
+    width: 91.5%;
+}
 
 #m-row input, #m-contact-col textarea{
     padding: 15px;
@@ -835,7 +848,7 @@ grid-column: 1/4;
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
-    padding: 12px 34px;
+    padding: 12px 43px;
     font-size: 13px;
     background: transparent;
     position: relative;
